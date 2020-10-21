@@ -5,11 +5,11 @@ import {
   Spinner,
 } from "react-bootstrap";
 
-import Job from "./Job";
-import JobsPagination from "./JobsPagination";
-import SearchForm from "./SearchForm";
+import Job from "./components/Job";
+import JobsPagination from "./components/JobsPagination";
+import SearchForm from "./components/SearchForm";
 
-import useFetchJobs from "./useFetchJobs";
+import useFetchJobs from "./hooks/useFetchJobs";
 
 function App() {
   const [params, setParams] = useState({});
