@@ -3,7 +3,7 @@ import { useReducer, useEffect } from "react";
 import axios from "axios";
 
 const BASE_URL =
-  "https://jobs.github.com/positions.json";
+  "https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json";
 
 const ACTIONS = {
   MAKE_REQUEST: "make-request",
